@@ -23,6 +23,13 @@ pip install -r requirements.txt
 ./grab-books.py --goodreads_id ...
 ```
 
+By default it looks at your `read` shelf, you can select a different shelf
+with `--shelf to-read`, for example.
+
+You will probably want to change the `--count` parameter to be the number of
+books you have on the shelf. By default, it only does this for 10 books.
+
+
 3. Run `compute-cppns`
 
 ```
@@ -38,3 +45,7 @@ pip install -r requirements.txt
 ```
 
 5. Open the `index.html` in the `output/` folder!
+
+You can change the look and feel of the html by investingating `make-page.py`.
+
+Enjoy!
