@@ -1,0 +1,25 @@
+div.book {
+  writing-mode:     vertical-rl;
+  text-orientation: mixed;
+}
+
+div.shelf {
+  display:        flex;
+  flex-direction: row;
+  flex-wrap:      wrap;
+  align-items:    flex-end;
+  width:          1200px;
+}
+
+div.book {
+  margin:              2px;
+  background-size:     200px;
+  background-repeat:   no-repeat;
+  background-position: center;
+  display:             flex;
+  align-items:         center;
+  justify-content:     center;
+  padding: 5px;
+}
+
+

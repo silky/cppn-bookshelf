@@ -1,0 +1,6 @@
+pandas
+numpy==1.14.3
+requests
+bs4
+click
+-e git+git://github.com/silky/cppn-cli.git#egg=cppn-cli

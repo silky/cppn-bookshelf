@@ -1,0 +1,8 @@
+src/
+images/
+cppn_images/
+__pycache__/
+logs/
+out.csv
+result.json
+output/
