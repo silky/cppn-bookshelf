@@ -36,7 +36,9 @@ books you have on the shelf. By default, it only does this for 10 books.
 ./compute-cppns.py
 ```
 
-(Note: This step might take a while, depending on how many books you have.)
+(Note: This step might take a while, depending on how many books you have, as
+it's the part that computes the cool-looking spine image, from the cover
+image.)
 
 4. Run `make-page`
 
