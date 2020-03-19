@@ -38,7 +38,7 @@ books you have on the shelf. By default, it only does this for 10 books.
 
 (Note: This step might take a while, depending on how many books you have, as
 it's the part that computes the cool-looking spine image, from the cover
-image.)
+image. It takes about 30 seconds per book, on my laptop.)
 
 4. Run `make-page`
 
