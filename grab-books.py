@@ -93,7 +93,7 @@ def raw_books (goodreads_id=None, shelf=None, count=None):
     base_url = "https://www.goodreads.com/review/list/"
 
     while page <= n:
-        url  = f"{base_url}/{goodreads_id}?shelf={shelf}&page={page}&per_page={per_page}"
+        url  = f"{base_url}{goodreads_id}?shelf={shelf}&page={page}&per_page={per_page}"
         resp = requests.get(url)
         html = resp.text
 
