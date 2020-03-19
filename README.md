@@ -14,10 +14,9 @@ cd cppn-bookshelf
 pip install -r requirements.txt
 ```
 
-2. Run `grab-books.py` with your goodreads id. You can find that by clicking
-   `My Books` and copying the number out of the url. Here's what mine looks
-   like: `https://www.goodreads.com/review/list/30456689`, so my ID is
-   `30456689`.
+2. Run `grab-books.py` with your (or someone elses!) goodreads id. You can
+   find that by clicking `My Books` and copying the number out of the url.
+   Here's what mine looks like: `https://www.goodreads.com/review/list/30456689`, so my ID is `30456689`.
 
 ```
 ./grab-books.py --goodreads_id ...
