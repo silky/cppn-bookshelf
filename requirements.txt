@@ -1,5 +1,5 @@
 pandas
-numpy==1.14.3
+numpy==1.22.0
 requests
 bs4
 click
