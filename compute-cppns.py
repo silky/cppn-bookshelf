@@ -33,13 +33,13 @@ def main (csv_path=None, cppn_img_path=None):
                 , "new"
                 , "--net_size",     "15"
                 , "--z_dim",        "20"
-                , "--activations", "tanh,softplus,tanh,tanh,tanh,softplus,tanh,tanh,tanh,tanh"
+                , "--activations", "tanh,softplus,tanh,tanh,tanh,softplus,tanh"
                 , "--colours",      "3"
                 , "--out",          f"{cppn_img_path}/{filename}"
                 , "match"
                 , "--image",        f"{img}"
-                , "--steps",        "2000"
-                , "--log_every",    "2000" # Only log once.
+                , "--steps",        "1000"
+                , "--log_every",    "1000" # Only log once.
                 ])
         proc.communicate()
 

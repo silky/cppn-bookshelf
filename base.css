@@ -1,6 +1,7 @@
 div.book {
   writing-mode:     vertical-rl;
   text-orientation: mixed;
+  text-shadow:      1px 1px black;
 }
 
 div.shelf {
@@ -8,7 +9,7 @@ div.shelf {
   flex-direction: row;
   flex-wrap:      wrap;
   align-items:    flex-end;
-  width:          1200px;
+  width:          2000px;
 }
 
 div.book {
